@@ -6,7 +6,7 @@ import numpy as np
 # DATA LOADING
 # ─────────────────────────────────────────
 
-data = pd.read_csv('data_bakery.csv')
+data = pd.read_csv('data/data_bakery.csv')
 
 print("=== BEFORE CLEANING ===")
 print(data.info())
